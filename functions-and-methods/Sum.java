@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Sum {
 
-    public static int calculateSum(int num1, int num2) {
+    public static int calculateSum(int num1, int num2) {    // parameters or formal parameters
         int sum = num1 + num2;
         return sum;
     } 
@@ -16,7 +16,7 @@ public class Sum {
         System.out.print("Enter 2nd number : ");
         int b = sc.nextInt();
         sc.close();
-        int sum = calculateSum(a, b);
+        int sum = calculateSum(a, b);    // arguments or actual parameters
         System.out.println("Sum is : " + sum);
     }
 }
